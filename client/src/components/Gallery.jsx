@@ -53,7 +53,7 @@ function GalleryItem({ src, category, subtitle, title, updateActiveImage, index 
 const Gallery = () => {
     const [activeImage, setActiveImage] = useState(1);
     return (
-        <section className="">
+        <section className="" data-scroll-section>
             <div className="h-screen py-[10vh] flex flex-nowrap bg-[#d64b3c] mx-[-5vw]">
                 {/* <div className="absolute top-[10%] left-[100px] z-10 mix-blend-difference leading-[16px] bg-[#dbd8d6] font-baiJamuree font-semibold text-[16px] inline-block">
                     <span>{activeImage}</span>
